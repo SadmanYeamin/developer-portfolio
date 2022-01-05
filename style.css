@@ -1,0 +1,12 @@
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+.title-name{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
