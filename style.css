@@ -1,12 +1,32 @@
-h1{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
-.title-name{
-    color: orange;
+h1 {
+  font-size: 50px;
 }
-section{
-    display: flex;
+.title-name {
+  color: orange;
 }
-.half-width{
-    width: 50%;
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+.half-width img {
+  width: 80%;
+}
+.half-width a {
+  background-image: linear-gradient(orange, tomato);
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 400;
+  border-radius: 10%;
+}
+.top-banner {
+  background-image: url(https://github.com/ProgrammingHero1/developer-portfolio/blob/master/images/top-banner.png?raw=true);
+  background-repeat: no-repeat;
 }
